@@ -1,4 +1,7 @@
-
+* {
+    padding: 0px;
+    box-sizing: border-box;
+}
 
 .page-wrapper {
     margin: 0 auto;
