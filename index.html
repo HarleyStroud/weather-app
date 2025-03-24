@@ -8,6 +8,26 @@
     <title>Weather App</title>
 </head>
 <body>
-    
+    <div class="page-wrapper">
+        <form id="weather_form">
+            <label for="location_input">Location</label>
+            <input id="location_input" name="location" type="text">
+        </form>
+
+        <div id="weather_container">
+            <div id="tempurature">
+                <p>temp:</p>
+                <span id="weatherTemp"></span>
+            </div>
+            <div id="humidity">
+                <p>Humidity:</p>
+                <span id="weatherHumidity"></span>
+            </div>
+            <div id="wind">
+                <p>Wind:</p>
+                <span id="weatherWind"></span>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
